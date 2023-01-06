@@ -15,7 +15,7 @@ install.packages("remotes")
 `ColumbusGPS` is only available through GitHub.
 
 ```
-remotes::install_github("EnvironmentalScienceAssociates/delver")
+remotes::install_github("EnvironmentalScienceAssociates/ColumbusGPS")
 ```
 
 

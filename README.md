@@ -1,21 +1,20 @@
+[![ColumbusGPS status badge](https://environmentalscienceassociates.r-universe.dev/badges/ColumbusGPS)](https://environmentalscienceassociates.r-universe.dev)
+
 ## ColumbusGPS
 
 Small package with a few functions for processing files from Columbus GPS units used in PER studies.
 
-### Prerequisites
-
-Installation requires the R package [`remotes`](https://remotes.r-lib.org).
-
-```
-install.packages("remotes")
-```
-
 ### Installation
 
-`ColumbusGPS` is only available through GitHub.
+`ColumbusGPS` is available through R-universe
+
+```
+install.packages("ColumbusGPS", repos = "https://environmentalscienceassociates.r-universe.dev")
+```
+
+and GitHub.
 
 ```
 remotes::install_github("EnvironmentalScienceAssociates/ColumbusGPS")
 ```
-
 

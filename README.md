@@ -6,15 +6,21 @@ Small package with a few functions for processing files from Columbus GPS units 
 
 ### Installation
 
-`ColumbusGPS` is available through R-universe
+Enable repository.
 
 ```
-install.packages("ColumbusGPS", repos = "https://environmentalscienceassociates.r-universe.dev")
+options(repos = c(ESA = "https://environmentalscienceassociates.r-universe.dev",
+                  CRAN = "https://cloud.r-project.org"))
 ```
 
-and GitHub.
+Download and install `ColumbusGPS` in R.
 
 ```
-remotes::install_github("EnvironmentalScienceAssociates/ColumbusGPS")
+install.packages("ColumbusGPS")
 ```
 
+Browse the `ColumbusGPS` manual pages.
+
+```
+help(package = "ColumbusGPS")
+```

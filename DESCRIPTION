@@ -5,7 +5,7 @@ Version: 0.1.0
 Author: Travis Hinkelman
 Maintainer: Travis Hinkelman <thinkelman@esassoc.com>
 Description: Small package with a few functions for processing files from Columbus GPS units used in PER studies.
-License: MIT
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: 
